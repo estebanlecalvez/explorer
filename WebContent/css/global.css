@@ -1,0 +1,66 @@
+.form {
+	background-color: yellow;
+	display: inline;
+}
+
+.header {
+	padding:0;
+	margin:0px;
+	margin-bottom:20px;
+	height:150px;
+	background-color:white;
+}
+
+.show{
+	background-color:lightblue;
+	margin:10%;
+	box-shadow: 10px 10px 10px white;
+	color : black;
+	border-radius:15px;
+}
+
+.show .content{
+	padding:50px;
+}
+ .logo {
+	width : 150px;
+	position:absolute;
+}
+.header ul {
+	margin: 0 200px 8%;
+	padding: 50px 0;
+	display: flex;
+}
+
+.header li {
+	list-style: none;
+}
+
+.header li a {
+	padding: 10px 20px;
+	font-family: sans-serif;
+	position: relative;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+.header li a:hover {
+	color:grey;
+	list-style: square;
+}
+
+td{
+	text-align:right;
+	padding:7px;
+}
+.list:nth-child(2n){
+	background-color:lightblue;
+	color:black;
+}
+body{
+	background-color: #003366;
+	color:white;
+}
+
